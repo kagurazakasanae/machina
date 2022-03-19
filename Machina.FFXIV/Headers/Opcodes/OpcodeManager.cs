@@ -68,9 +68,8 @@ namespace Machina.FFXIV.Headers.Opcodes
         }
         public void SetRegion(GameRegion region)
         {
-            if (!_opcodes.ContainsKey(region))
-                region = GameRegion.Global;
-
+            region = GameRegion.Chinese;
+            
             GameRegion = region;
             CurrentOpcodes = _opcodes[GameRegion];
 
