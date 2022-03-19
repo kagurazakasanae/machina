@@ -115,7 +115,7 @@ namespace Machina.FFXIV
             _monitor.Config.ProcessID = ProcessID;
             _monitor.Config.ProcessIDList = ProcessIDList;
             if (_monitor.Config.ProcessID == 0)
-                _monitor.Config.WindowName = "FINAL FANTASY XIV";
+                _monitor.Config.WindowName = "最终幻想XIV";
             _monitor.Config.MonitorType = MonitorType;
             _monitor.Config.LocalIP = LocalIP;
             _monitor.Config.UseRemoteIpFilter = UseRemoteIpFilter;
